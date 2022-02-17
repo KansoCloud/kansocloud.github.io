@@ -23,6 +23,7 @@ Mobile build phase includes two modes: debug/profile and release:
 * Build automation with a platform such as Fastlane allows for orchestration of the entire release lifecycle including code signing for iOS
 * Code signing identities and profiles are stored in a private, encrypted git repository to securely sync them across machines and CI environments
 * This also enables separate production and development code signing identities
+
 ### Publish Phase
 The automated Publish phase makes the artifacts created by the build process available for internal testing
 * Builds can be published to:
@@ -30,6 +31,7 @@ The automated Publish phase makes the artifacts created by the build process ava
   - Testing platforms and Device Farms such as TestProject.io, BrowserStack, AWS Device Farm, etc for "Automated Testing"
 * When a new IOS Device or Android needs to be added for internal testing, the automated process updates the code signing profiles and publishes a new version of the app
 * Release notes are generated automatically from the git commits for every published event
+
 ### Release Phase
 Release steps are part of every phase of the mobile app lifecycle and include submission of the app, metadata, screenshot, etc.
 * Release automation utilizes <a href="https://fastlane.tools/" target="_blank">Fastlane</a> to manage all the app’s metadata including screenshots. 
