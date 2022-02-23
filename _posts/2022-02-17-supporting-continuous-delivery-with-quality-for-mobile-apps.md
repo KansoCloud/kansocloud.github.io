@@ -2,10 +2,10 @@
 layout: post
 title:  "Supporting Continuous Delivery with Quality for Mobile Apps"
 date:   2022-02-16 17:38:50 +0530
-categories: jekyll update
+categories: z 
 picture: "../images/img2.webp"
 writer: "Pramod Veerannagari"
-
+head: "Supporting Continuous Delivery with Quality for Mobile Apps"
 ---
 
 ## **Introduction**
