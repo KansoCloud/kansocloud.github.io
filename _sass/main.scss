@@ -917,9 +917,35 @@ h5, .h5 {
   justify-content: center;
   margin-right: 0.5rem;
 }
-.ss-footer .footer-nav-list.footer-social-list a .social-icon svg {
+
+.share-blog{
+  text-align: end;
+}
+
+.share-blog .social-icon{
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.share-blog{
+  color:#1DD8A3;
+}
+
+.share-blog a{
+  text-decoration: none;
+}
+
+.ss-footer .footer-nav-list.footer-social-list a .social-icon svg , .share-blog .social-icon svg{
   fill: #1DD8A3;
 }
+
+.share-blog .social-icon svg:hover{
+  fill: #1f8f6f;
+}
+
 
 body {
   overflow-x: hidden;
