@@ -2,8 +2,8 @@
 layout: post
 title:  "Supporting Continuous Delivery with Quality for Mobile Apps"
 date:   2022-02-16 17:38:50 +0530
-categories: z 
-picture: "../images/img2.webp"
+categories: Test Automation
+picture: "../images/img2.png"
 writer: "Pramod Veerannagari"
 head: "Supporting Continuous Delivery with Quality for Mobile Apps"
 ---
@@ -22,7 +22,7 @@ A typical mobile app release lifecycle involves the following steps:
 
 To simplify the build, test, and release steps, an integrated set of tools that can build, test and deliver both Android and iOS apps is needed to simplify the end-to-end release process. The following diagram shows the build, test, and release flow using an integrated set of tools for end-to-end delivery of the app.
 
-<img src="/images/img2.webp" width="100%" alt="Flow diagram" style= "padding-top: 30px">
+<img src="/images/img2.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
 
 #### **Build Phase**
 Mobile build phase includes two modes: debug/profile and release:
