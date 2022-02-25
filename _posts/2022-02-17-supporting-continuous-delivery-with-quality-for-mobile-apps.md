@@ -5,7 +5,6 @@ date:   2022-02-16 17:38:50 +0530
 categories: Test Automation
 picture: "../images/img2.png"
 writer: "Pramod Veerannagari"
-head: "Supporting Continuous Delivery with Quality for Mobile Apps"
 ---
 
 ## **Introduction**
