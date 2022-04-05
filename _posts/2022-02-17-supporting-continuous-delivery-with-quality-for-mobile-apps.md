@@ -3,7 +3,7 @@ layout: post
 title:  "Supporting Continuous Delivery with Quality for Mobile Apps"
 date:   2022-02-16 17:38:50 +0530
 categories: Test Automation
-picture: "../images/img2.png"
+picture: "../images/blog1/img2.png"
 writer: "Pramod Veerannagari"
 ---
 
@@ -11,23 +11,23 @@ writer: "Pramod Veerannagari"
 Building, testing, and delivering mobile applications typically involves multiple steps that can be long and complicated. When build, test, and deliver steps are performed manually in such cases, the process can become arduous and error-prone. In addition, the feedback loop to developers takes longer to compete slowing down the overall development process. The key to delivering accelerated value to end users is by adopting the concepts of Continuous Integration (CI), Continuous Delivery (CD), and Continuous Testing (CT) for mobile applications similar to how CI-CD has been successfully adopted for server-based applications.
 
 ## **Mobile App Release Lifecycle**
-CI-CD for mobile apps comes with its own challenges: 
+CI-CD for mobile apps comes with its own challenges:
 * builds have to be distributed for testing and alpha/beta users
 * timing of each release is not fully under the control of the development team;  for instance - an iOS application can only be released when it successfully passed Apple's App Store validation.
 
 A typical mobile app release lifecycle involves the following steps:
 
-![Mobile app release lifecycle steps](/images/img1.png)
+![Mobile app release lifecycle steps](/images/blog1/img1.png)
 
 To simplify the build, test, and release steps, an integrated set of tools that can build, test and deliver both Android and iOS apps is needed to simplify the end-to-end release process. The following diagram shows the build, test, and release flow using an integrated set of tools for end-to-end delivery of the app.
 
-<img src="/images/img2.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
+<img src="/images/blog1/img2.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
 
 #### **Build Phase**
 Mobile build phase includes two modes: debug/profile and release:
-* Debug/Profile builds are generally created by developers during development and testing on their local machines. 
+* Debug/Profile builds are generally created by developers during development and testing on their local machines.
 * Once the development is complete, the app release build lifecycle gets triggered and the release build needs to be shared at each phase of the lifecycle environment (Internal, Alpha, Beta/Prod)
-* Creating release builds by developers hinder their ability to focus on development and have to switch context to create new builds for each environment (Internal, Alpha, Beta/Prod) 
+* Creating release builds by developers hinder their ability to focus on development and have to switch context to create new builds for each environment (Internal, Alpha, Beta/Prod)
 * Build automation with a platform such as Fastlane allows for orchestration of the entire release lifecycle including code signing for iOS
 * Code signing identities and profiles are stored in a private, encrypted git repository to securely sync them across machines and CI environments
 * This also enables separate production and development code signing identities
@@ -42,8 +42,8 @@ The automated Publish phase makes the artifacts created by the build process ava
 
 #### **Release Phase**
 Release steps are part of every phase of the mobile app lifecycle and include submission of the app, metadata, screenshot, etc.
-* Release automation utilizes <a href="https://fastlane.tools/" target="_blank">Fastlane</a> to manage all the app’s metadata including screenshots. 
-* The release for each lifecycle phase can be as below: 
+* Release automation utilizes <a href="https://fastlane.tools/" target="_blank">Fastlane</a> to manage all the app’s metadata including screenshots.
+* The release for each lifecycle phase can be as below:
   - Alpha versions are published to PlayStore & AppStore to a limited audience
   - Beta versions are published to PlayStore & AppStore and then promoted to Production available for all users
 
@@ -64,7 +64,7 @@ The key to incorporate quality into mobile software is by ensuring that accelera
 #### **Why use Mobile Device Farms such as BrowserStack or SauceLabs?**
 There is a need for cloud-based mobile testing platforms to execute tests in a continuous manner using delivery pipelines. These platforms depend on mobile device farms supporting real mobile devices to facilitate automated testing to closely simulate the experience of real users at scale.
 
-<img src="/images/img3.png" width="100%" alt="Cloud-based mobile testing diagram" style= "padding-top: 30px; padding-bottom: 30px">
+<img src="/images/blog1/img3.png" width="100%" alt="Cloud-based mobile testing diagram" style= "padding-top: 30px; padding-bottom: 30px">
 
 ## **Conclusion**
 Adopting Continuous Delivery with Continuous Testing practices for mobile applications is technically feasible and can be successfully implemented with planning and deliberate selection of tools and processes. It also requires a cultural change and organizational commitment to the philosophies of "Shift-Left & Continuous Testing" to really embrace "Test Driven Development" principles. KansoCloud’s DevTestOps methodology maximizes the success of building and adopting Continuous Delivery for mobile applications by making it an integral part of the product development lifecycle for its customers. Implemented in the right way, adopting these best practices will eventually result in the following tangible benefits:

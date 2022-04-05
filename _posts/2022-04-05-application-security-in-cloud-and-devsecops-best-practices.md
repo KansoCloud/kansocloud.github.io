@@ -1,16 +1,15 @@
- ---
+---
     layout: post
     title:  "Application Security in Cloud and DevSecOps Best Practices"
     date:   2022-04-05 12:38:50 +0530
     categories: Test Automation
-    picture: "../images/img2.png"
+    picture: "../images/applicationSecurity(blog2)/appSecurity-4.png"
     writer: "Pramod Veerannagari"
 ---
-
 ## **Introduction**
 Building a secure and compliant application on a public cloud platform necessitates the implementation of numerous controls to be applied during the build, test, deploy and post-deployment phases.
 
-<img src="/images/applicationSecurity/appSecurity-1.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
+<img src="/images/applicationSecurity(blog2)/appSecurity-1.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
 
 * Application development teams struggle to understand the overarching  DevSecOps toolchain and how exactly to introduce security controls into their current SDLC process and their  automated delivery pipelines
 * Lack of infrastructure and application scanning capabilities can allow attackers to find weaknesses and compromise the overall system
@@ -27,7 +26,7 @@ There has been a recent trend to shift testing to the left. In fact, it is equal
 
 #### **Utilize a Secure “Cloud Infrastructure Layer”**
 
-![Mobile app release lifecycle steps](/images/applicationSecurity/appSecurity-2.png)
+![Mobile app release lifecycle steps](/images/applicationSecurity(blog2)/appSecurity-2.png)
 
 * Implement infrastructure controls for a fully secure and compliant infrastructure based on required standards. This will require navigating through cloud providers’ native solutions, open-source software and any third-party ISV tools
 * Implement automated configuration management  using Infrastructure as Code(IaC) with appropriate security controls
@@ -41,7 +40,7 @@ There has been a recent trend to shift testing to the left. In fact, it is equal
 
 #### **Integrate Security right from the Development phase**
 
-<img src="/images/applicationSecurity/appSecurity-3.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
+<img src="/images/applicationSecurity(blog2)/appSecurity-3.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
 
 * Utilize software development best practices to minimize vulnerabilities in applications
 * Follow best practices on application logging with a special emphasis on logging security related items
@@ -55,7 +54,7 @@ There has been a recent trend to shift testing to the left. In fact, it is equal
 
 #### **Embrace “Pre-Commit” Stage Security Practices**
 
-<img src="/images/applicationSecurity/appSecurity-4.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
+<img src="/images/applicationSecurity(blog2)/appSecurity-4.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
 
 * Validate security activities before code is checked into version control
 * Perform threat modeling of the application build and deployment environments to understand threats and implement appropriate mitigation strategies
@@ -63,7 +62,7 @@ There has been a recent trend to shift testing to the left. In fact, it is equal
 * Setup pre-commit security hooks in source code repository for early detection of security vulnerabilities in code before committing it to the repository
 * Mandate use of IDE security plugins to identify and fix security issues as and when developers create code
 
-<img src="/images/applicationSecurity/appSecurity-4.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
+<img src="/images/applicationSecurity(blog2)/appSecurity-4.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
 
 * Here are some of the examples for implementing the Pre-Commit hooks into your source code repository:
     - <a href="https://github.com/pre-commit/pre-commit-hooks" target="_blank">Some out-of-the-box hooks for pre-commit</a>
@@ -74,7 +73,7 @@ There has been a recent trend to shift testing to the left. In fact, it is equal
 
 #### **Embrace “Commit Stage” Security Practices**
 
-<img src="/images/applicationSecurity/appSecurity-5.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
+<img src="/images/applicationSecurity(blog2)/appSecurity-5.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
 
 * Perform fast and automated security checks during the build and continuous integration steps
 * Integrate Security checks within CI-CD pipelines to help you detect issues during software development lifecycle
@@ -86,7 +85,7 @@ There has been a recent trend to shift testing to the left. In fact, it is equal
 
 #### **Implement Continuous Delivery Security Practices**
 
-<img src="/images/applicationSecurity/appSecurity-6.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
+<img src="/images/applicationSecurity(blog2)/appSecurity-6.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
 
 * Perform automated security acceptance, functional testing and deep scanning during continuous delivery
 * Integrate security acceptance testing within CI-CD pipelines
@@ -97,7 +96,7 @@ There has been a recent trend to shift testing to the left. In fact, it is equal
 
 #### **Implement Continuous Deployment Security Practices**
 
-<img src="/images/applicationSecurity/appSecurity-7.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
+<img src="/images/applicationSecurity(blog2)/appSecurity-7.png" width="100%" alt="Flow diagram" style= "padding-top: 30px">
 
 * Security checks before, during and after deployment to production
 * Continuous security monitoring and compliance checks in production

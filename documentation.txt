@@ -6,7 +6,7 @@ This is a step by step guide on how to add new blogs to the KansoCloud Blog page
     for eg: date of creation is "12 Jan , 2022" and title of the blog is "Supporting Continuous delivery for mobile apps"
             Then the name of file will be 2022-01-12-supporting-continuous-delivery-for-mobile-apps.md
 
-2. Inside the md file 
+2. Inside the md file
 
     copy below mentioned data including dashes( --- ---):-
 
@@ -18,13 +18,13 @@ This is a step by step guide on how to add new blogs to the KansoCloud Blog page
     picture: "../images/img2.png"
     writer: "Pramod Veerannagari"
     ---
-    
-    
+
+
     explanation(edit the above details according to below explanations):-
     ---
     layout: post                                                                        #do not change
-    title:  "Supporting Continuous delivery for mobile apps"                            #title of the blog                            
-    date:   2022-02-16 17:38:50 +0530                                                   #date and time in the mentioned format 
+    title:  "Supporting Continuous delivery for mobile apps"                            #title of the blog
+    date:   2022-02-16 17:38:50 +0530                                                   #date and time in the mentioned format
     categories: Test Automation                                                         #any category from the navbar
     picture: "../images/img2.png"                                                       #address of the picture you want to show on the home page for the particular blog(please see step 3)
     writer: "Pramod Veerannagari"                                                       #name of the writer
@@ -34,4 +34,5 @@ This is a step by step guide on how to add new blogs to the KansoCloud Blog page
     Refer https://www.markdownguide.org/basic-syntax/ to know about the basic syntax for writing your blog using markdown.
 
 3.  Adding images for home page and inside the blog page :
-    Add all your images inside the images folder at the root i.e. -------- KANSOCLOUD.GITHUB.IO > images >
+    create a new folder inside the images folder at the root directory for each blog:
+    Add all your images inside that folder i.e. -------- KANSOCLOUD.GITHUB.IO > images > folderName >
