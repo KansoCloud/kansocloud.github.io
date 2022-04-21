@@ -24,7 +24,11 @@ footer .mb-3{
     margin-left: 3rem;
 }
 
-  
+
+th, td{
+  vertical-align: top;
+}
+
   //copied from existing site css
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&display=swap");
 h1, .h1,

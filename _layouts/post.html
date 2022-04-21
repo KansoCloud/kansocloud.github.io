@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post h-entry p-5" itemscope itemtype="http://schema.org/BlogPosting" style="border: 1px solid grey;">
+<article class="post h-entry p-5 col-7 mx-auto" itemscope itemtype="http://schema.org/BlogPosting" style="border: 1px solid grey;">
 
   <header class="post-header">
     <div class="row">
@@ -38,7 +38,7 @@ layout: default
       {%- if page.writer -%}
         <div class="col-12 mb-2" itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.writer }}</span></div>
     {%- endif -%}
-    
+
     </div>
 
     <h1 style="font-size:xx-large; font-weight: 700; line-height: 3rem;" class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
