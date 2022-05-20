@@ -18,7 +18,7 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
           <img class="card-image" src="{{ post.picture | escape }}">
-          <div class="card-body">
+          <div class="card-body ">
             <span class="post-meta">{{ post.date | date: date_format }}  |  </span>
             <span class="text-dark post-meta">
               {{ post.writer | escape }}</span>
