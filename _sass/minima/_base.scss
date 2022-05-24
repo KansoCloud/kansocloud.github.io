@@ -228,6 +228,7 @@ pre {
 /**
  * Tables
  */
+
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
@@ -235,6 +236,9 @@ table {
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
   tr {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);
