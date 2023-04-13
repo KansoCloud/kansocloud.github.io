@@ -3,7 +3,7 @@ layout: post
 title:  "Deploying EKS within Restricted Private Subnets"
 date:   2023-04-05 11:16:50 +0530
 categories: Test Automation
-picture: "../images/blog1/img2.png"
+picture: "../images/blog5/EKS_EC2_Pattern.png"
 writer: "Jason Dopson"
 ---
 
