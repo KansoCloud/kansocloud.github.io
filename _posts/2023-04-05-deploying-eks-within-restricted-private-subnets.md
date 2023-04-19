@@ -17,7 +17,7 @@ This design presents a few practical challenges:
 * Load balancers need incoming access from other enterprise accounts.  
 <br>
 
-## **Apporach**
+## **Approach**
 
 EKS, by default, requires the use of quite a few IP addresses out of the box.  In addition, there is a need to account for application pods, EKS worker nodes (EC2 or Fargate), Load Balancers, EFS, and any other needed addons.  At this point, you would probably already have exhausted your IP pool. This means that new subnets are required right from the start or the EKS cluster will encounter issues due to IP exhaustion while trying to run alongside other deployed applications.  Since the customer instruction was to “work with what we had been given”, the idea was to attach a new CIDR to the VPC using private, non-routable IP space defined in RFC1918.  New subnets would then be created and then EKS deployed to ensure compliance with the IP space restrictions.
 
