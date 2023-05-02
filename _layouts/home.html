@@ -2,6 +2,73 @@
 layout: default
 ---
 
+<style>
+.thumbnail-image {
+  max-width: 100%;
+  max-height: 150px;
+}
+
+.post-title {
+  font-size: 1.2em;
+}
+
+.post-excerpt {
+  font-size: 0.9em;
+}
+
+.post-meta {
+  font-size: 1em;
+}
+
+.read-more-button {
+  font-size: 0.9em;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  border: 1px solid #fff;
+}
+
+.read-more-button:hover {
+  background-color: green;
+  color: white;
+  border-color: white;
+}
+
+.post-item {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail {
+  width: 200px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.post-details {
+  flex-grow: 1;
+  max-width: 60rem; /* Adjust the width as needed */
+}
+
+@media (max-width: 767px) {
+  .post-item {
+    height: auto;
+  }
+
+  .thumbnail {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+</style>
+
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -11,30 +78,22 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <div class="p-4">
-    <ul class="post-list d-flex justify-content-center flex-wrap card-group">
-      {%- for post in site.posts -%}
-      <li class=" border border-dark rounded-sm m-4 p-3 card">
-        <a class="post-link" href="{{ post.url | relative_url }}">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-
-          <img class="card-image" src="{{ post.picture | escape }}">
-          <div class="card-body ">
-            <span class="post-meta">{{ post.date | date: date_format }}  |  </span>
-            <span class="text-dark post-meta">
-              {{ post.writer | escape }}</span>
-          <h4>
-              {{ post.title | escape }}
-          </h4>
-
+      <div class="post-list d-flex justify-content-center flex-wrap">
+        {%- for post in site.posts -%}
+        <div class="post-item m-4 p-3">
+          <div class="thumbnail">
+            <img class="thumbnail-image" src="{{ post.picture | escape }}" alt="{{ post.title | escape }}">
+          </div>
+          <div class="post-details">
+            <h2 class="post-title">{{ post.title | escape }}</h2>
+            <p class="post-excerpt">{{ post.content | strip_html | truncate: 500 }}</p>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} | {{ post.writer | escape }}</span>
+            <button class="read-more-button" onclick="window.location.href='{{ post.url | relative_url }}'">Read More</button>
+          </div>
         </div>
-      </a>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  </div>
+        {%- endfor -%}
+      </div>
+    </div>
   {%- endif -%}
 
 </div>
