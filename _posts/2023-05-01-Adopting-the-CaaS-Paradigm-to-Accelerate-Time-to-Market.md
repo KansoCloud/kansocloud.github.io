@@ -2,7 +2,7 @@
 layout: post
 title:  "Adopting the CaaS Paradigm to Accelerate Time to Market"
 date:   2023-05-01 11:37:50 +0530
-categories: Test Automation
+categories: Unqork
 picture: "../images/blog6/image6.png"
 writer: "Ramesh Bhomireddy"
 ---
