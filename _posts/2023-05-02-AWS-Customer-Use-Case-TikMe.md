@@ -1,9 +1,9 @@
 ---
 layout: post_without_share
-title:  "AWS Customer Use Case"
-date:   2023-05-02 10:37:50 +0530
-categories: Test Automation
-picture: "../images/blog6/image6.png"
+title:  "AWS Customer Use Case TikMe"
+date:   2023-05-01 10:37:50 +0530
+categories: AWS
+picture: "../images/blog7/TikMe.png"
 writer: "Mitch Martin"
 ---
 
@@ -26,7 +26,7 @@ TikMe is in need of an automated CI/CD and testing solution for their mobile app
 
 Phase I consisted of deploying infrastructure to TikMe’s AWS account to support application development using AWS serverless services with automated testing following the high-level design below:
 
-<!-- to set image  -->
+<img src="images\blog7\TikMe.png" width="100%" height="50%" alt="Flow diagram">
 
 We migrated the environment to AWS ECS Fargate and the static data resided in Amazon S3 and AWS Elastic File System (EFS).
 All services are deployed using Terraform and GitHub Actions for CI/CD with AWS CloudTrail enabled and AWS Secrets Manager for storing any sensitive data being used within the application.
