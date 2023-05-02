@@ -1,9 +1,9 @@
 ---
 layout: post_without_share
-title:  "AWS Customer Use Case"
-date:   2023-05-02 10:37:50 +0530
+title:  "AWS Customer Use Case Whiz.AI"
+date:   2023-05-01 10:37:50 +0530
 categories: Test Automation
-picture: "../images/blog6/image6.png"
+picture: "../images/blog_8/WhizArchitectureDiagram.png"
 writer: "Mitch Martin"
 ---
 
@@ -26,7 +26,7 @@ A monolith application running all services on a single node needs to modernize 
 
 Migrate the application to [Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/) and [Amazon RDS for PostgreSQL](https://aws.amazon.com/rds/postgresql/) following the high level solution diagram below:
 
-<!-- to set image  -->
+<img src="images/blog_8/WhizArchitectureDiagram.png" width="100%" height="50%" alt="WhizArchitectureDiagram">
 
 All services deployed using terraform and Jenkins CI/CD pipeline with AWS CloudTrail enabled.  
 
