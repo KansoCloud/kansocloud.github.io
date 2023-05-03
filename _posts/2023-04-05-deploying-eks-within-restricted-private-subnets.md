@@ -21,7 +21,7 @@ This design presents a few practical challenges:
 
 EKS, by default, requires the use of quite a few IP addresses out of the box.  In addition, there is a need to account for application pods, EKS worker nodes (EC2 or Fargate), Load Balancers, EFS, and any other needed addons.  At this point, you would probably already have exhausted your IP pool. This means that new subnets are required right from the start or the EKS cluster will encounter issues due to IP exhaustion while trying to run alongside other deployed applications.  Since the customer instruction was to “work with what we had been given”, the idea was to attach a new CIDR to the VPC using private, non-routable IP space defined in RFC1918.  New subnets would then be created and then EKS deployed to ensure compliance with the IP space restrictions.
 
-<img src="images\blog5\EKS_EC2_Pattern.png" width="100%" height="50%" alt="Flow diagram">
+<img src="images\blog5\EKS_EC2_Pattern.png" width="100%" height="50%" alt="eks_ec2_pattern">
 
 ## **Issues**
 One of the first challenges was to successfully deploy EKS based external dependencies that come in the form of Docker containers.  Since this environment was closed to the Internet, external dependencies had to be sourced through the approved repository platform (JFrog Artifactory).  Also, without Internet access it became necessary to create VPC endpoints for the other AWS services required by the cluster (the dependencies required for a plain vanilla EKS cluster can be a topic for another blog!).  
