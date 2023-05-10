@@ -1,10 +1,10 @@
 ---
 layout: post_without_share
 title:  "Deploying Amazon Elastic Kubernetes Service (EKS) within Restricted Private Subnets"
-date:   2023-05-01 10:45:50 +0530
+date:   2023-04-05 10:45:50 +0530
 categories: AWS
 picture: "../images/blog5/EKS_EC2_Pattern.png"
-writer: "Mitch Martin"
+writer: "Jason Dopson"
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post_without_share
 title:  "AWS Customer Use Case TikMe"
-date:   2023-05-01 10:37:50 +0530
+date:   2022-12-05 10:37:50 +0530
 categories: AWS
 picture: "../images/blog7/TikMe.png"
 writer: "Mitch Martin"
