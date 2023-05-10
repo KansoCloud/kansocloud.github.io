@@ -1,7 +1,7 @@
 ---
 layout: post_without_share
 title:  "AWS Customer Use Case Whiz.AI"
-date:   2023-05-01 10:37:50 +0530
+date:   2023-02-17 10:37:50 +0530
 categories: Test Automation
 picture: "../images/blog_8/WhizArchitectureDiagram.png"
 writer: "Mitch Martin"
