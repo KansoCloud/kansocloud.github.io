@@ -29,7 +29,8 @@ Implementing a User Interface (UI) Test Automation for a CRM platform comes with
 
 ## **Browser Automation Library -  Playwright v/s Selenium**
 When it comes to Salesforce based solutions, the UI is highly dynamic by design and customers don't have control over the underlying infrastructure. So, it was especially important for the Test Automation tool to be able to handle the dynamic components used by Salesforce effectively and efficiently. We had two options in this regard:
-[Playwright](https://playwright.dev/) is a relatively new open source tool for browser automation, with its first version released by Microsoft in 2020. It was built by the team behind [Puppeteer](https://developer.chrome.com/docs/puppeteer/), which is a headless testing framework for Chrome/Chromium. Playwright goes beyond Puppeteer and provides support for multiple browsers, among other changes. Playwright is designed for end-to-end automated testing of web apps. It’s cross-platform, cross-browser and cross-language, and includes helpful features like auto-waiting. It is specifically engineered for the modern web and generally runs very quickly, even for complex testing projects.
+[Playwright](https://playwright.dev/) is a relatively new open source tool for browser automation, with its first version released by Microsoft in 2020. It was built by the team behind [Puppeteer](https://developer.chrome.com/docs/puppeteer/), which is a headless testing framework for Chrome/Chromium. Playwright goes beyond Puppeteer and provides support for multiple browsers, among other changes. Playwright is designed for end-to-end automated testing of web apps. It’s cross-platform, cross-browser and cross-language, and includes helpful features like auto-waiting. It is specifically engineered for the modern web and generally runs very quickly, even for complex testing projects.<br>
+
 [Selenium](https://www.selenium.dev/) is a long-running open source tool for browser automation. It was originally conceived in 2004 by [Jason Huggins](https://applitools.com/blog/jason-huggins/), and has been actively developed ever since. Selenium is a widely-used tool with a huge community of users, and the Selenium and the framework is capable of automating and controlling web browsers and interacting with UI elements, and it’s the most popular framework in the industry today.
 
 Bottomline, Playwright library covers almost all use cases offered by Selenium Library. With features such as automatic sleeps, browser/context re-use and improved underlying technology, Playwright automations are often faster to run
@@ -51,8 +52,9 @@ After a thorough analysis based on the specific customer use cases, Playwright w
 In general, Test Automation of dynamic element based UI is a challenge. The capabilities offered by the combination of Robot Framework and Playwright library enabled the KansoCloud team to develop a comprehensive test automation solution using open source technologies to solve the specific needs of our customer. For the Test Automation process to be effective in an organization, it should always be an integral part of the overall software development (CI/CD) lifecycle.
 
 ## **References**
+
+* [Playwright vs Selenium](https://applitools.com/blog/playwright-vs-selenium)
 * [How Does playwright work](https://muuktest.com/blog/how-does-playwright-work/)
-* [Playwright vs Selenium](https://applitools.com/blog/playwright-vs-selenium/)
 
 
 
