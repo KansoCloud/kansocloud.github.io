@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adopting the CaaS Paradigm to Accelerate Time to Market"
+title: "Comparison of Katalon Studio and Robot Framework Test Automation Platforms"
 date: 2023-08-09 11:37:50 +0530
 categories: Test Automation
 picture: "../images/blog12/image1.png"
@@ -32,23 +32,6 @@ introduced features.
 
 
 ## **Katalon Studio vs Robot Framework**
-
-* Drag-and-drop interface to build user interfaces and dynamic workflows to automate complex business processes
-* Ability to integrate with other systems and data sources easily
-* Supports building of custom applications with “lego block” like plug-and-play features
-* Empowers users/developers to stay closer business/customers’ needs instead of focusing on the underlying technology
-stack
-* Supports the creation of branded digital experiences at scale, thanks to flexible styling and reusable UI templates
-and modules
-* Supports RBAC controls and data encryption
-* Reduces overall software development time while providing the flexibility to deliver fairly complex applications with
-less resources (compared to full stack product development)
-
-<br>
-
-
-
-## **Traditional (Custom) software development versus Unqork No-code development**
 
 <table>
     <th></th>
