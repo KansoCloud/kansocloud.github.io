@@ -3,7 +3,7 @@ layout: post
 title: "Comparison of Katalon Studio and Robot Framework Test Automation Platforms"
 date: 2023-08-09 11:37:50 +0530
 categories: Test Automation
-picture: "../images/blog12/image1.png"
+picture: "../images/blog12/thumbnail.png"
 writer: "Ravichandhra Palla"
 ---
 
