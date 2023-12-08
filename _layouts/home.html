@@ -40,15 +40,19 @@ layout: default
   background-color: #1DD8A3;
   color: white;
   border-color: white;
+  
 }
 
 .post-item {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .06);
 }
 
 .thumbnail {
@@ -60,6 +64,8 @@ layout: default
 .post-details {
   flex-grow: 1;
   max-width: 60rem; /* Adjust the width as needed */
+ 
+
 }
 
 @media (max-width: 767px) {
@@ -84,7 +90,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <div class="p-4">
+    <div class="p-4" style="margin-top: -40px;">
       <div class="post-list d-flex justify-content-center flex-wrap">
         {%- for post in site.posts -%}
         <div class="post-item m-4 p-3">
