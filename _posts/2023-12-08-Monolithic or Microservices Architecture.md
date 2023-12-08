@@ -3,7 +3,7 @@ layout: post
 title: "Monolithic or Microservices Architecture"
 date: 2023-12-08 17:38:50 +0530
 categories: Monolithic or Microservices
-picture: ""
+picture: "../images/monolithic/monolithic.png"
 writer: "Pallavi Phadke"
 ---
 
@@ -20,7 +20,7 @@ Application architectures can be categorized as <strong> Monolithic</strong> or 
 
 <!-- images need to be here -->
 <div style="display: flex; align-items: center; justify-content: center;">
-    <img src="../images/monolithic/monolithic.png" alt="" srcset="">
+    <img src="../images/monolithic/monolithic.png" alt="monolithic img" srcset="">
 </div>
 
 ## **Monolithic Architecture**
