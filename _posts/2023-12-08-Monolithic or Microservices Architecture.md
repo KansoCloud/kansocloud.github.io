@@ -3,7 +3,7 @@ layout: post
 title: "Monolithic or Microservices Architecture"
 date: 2023-12-08 17:38:50 +0530
 categories: Monolithic or Microservices
-picture: "../images/blog1/img2.png"
+picture: ""
 writer: "Pallavi Phadke"
 ---
 
@@ -19,6 +19,9 @@ Application architectures can be categorized as <strong> Monolithic</strong> or 
 <br>
 
 <!-- images need to be here -->
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/monolithic/monolithic.png" alt="" srcset="">
+</div>
 
 ## **Monolithic Architecture**
 
@@ -43,6 +46,7 @@ Microservices architecture came into being a few years primarily because of the 
 In order to deliver business value, an extensive portfolio of applications and integrations interacting with other vendors and technology partners supporting the business has become a necessity. The numerous touch points and interactions will eventually need considerable maintenance. So, the focus moved from delivering product features to dealing with internal and external dependencies coherently.
 <br>
 The concept of Microservices Architecture was born in order to elegantly handle this dependency issue. Microservices architecture dictates that the application is a collection of smaller services that can technically handle a specific functionality and data. Services can achieve their outcome by communicating with each other directly using lightweight protocols such as HTTP/HTTPS. According to Sam Newman, Microservices can be defined as “small services that work together” .
+<br>
 
 #### **Microservices Principles**
 
