@@ -10,6 +10,13 @@ layout: default
 
 .post-title {
   font-size: 1.2em;
+  cursor: pointer;
+  transition:color 0.2s ;
+
+}
+.post-title:hover{
+  color: #1DD8A3;
+  background-color: initial;
 }
 
 .post-excerpt {
@@ -85,10 +92,10 @@ layout: default
             <img class="thumbnail-image" src="{{ post.picture | escape }}" alt="{{ post.title | escape }}">
           </div>
           <div class="post-details">
-            <h2 class="post-title">{{ post.title | escape }}</h2>
+            <h2 class="post-title" onclick="window.location.href='{{ post.url | relative_url }}'" >{{ post.title | escape }}</h2>
             <p class="post-excerpt">{{ post.content | strip_html | truncate: 500 }}</p>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} | {{ post.writer | escape }}</span>
-            <button class="read-more-button" onclick="window.location.href='{{ post.url | relative_url }}'">Read More</button>
+            <!-- <button class="read-more-button" onclick="window.location.href='{{ post.url | relative_url }}'">Read More</button> -->
           </div>
         </div>
         {%- endfor -%}
