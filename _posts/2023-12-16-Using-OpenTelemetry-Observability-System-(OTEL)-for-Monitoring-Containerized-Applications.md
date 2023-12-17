@@ -7,8 +7,6 @@ picture: "../images/Observability System (OTEL)/otel-diagram.svg"
 writer: "Kapil Bokadia"
 ---
 
-## **Using OpenTelemetry Observability System (OTEL) for Monitoring Containerized Applications**
-
 ## **Introduction**
 
 Microservices, Containerization and Kubernetes have become buzz words in the software infrastructure world over the past few years. While running Kubernetes clusters has become relatively straightforward, operating them effectively has been an issue for most organizations. One of the most common challenges with Kubernetes is the ability to holistically monitor the underlying infrastructure to avoid issues such as unwanted costs, downtime, lack of observability, etc. Monitoring a containerized application effectively and economically has become a new challenge for developers and infrastructure engineers alike.
@@ -18,7 +16,7 @@ Microservices, Containerization and Kubernetes have become buzz words in the sof
 There are two basic requirements to observe or monitor a software application end-to-end:
 
 <ul>
-    <li>
+    <li>git 
         Application components should generate the necessary data to be used for monitoring (metrics, logs, tracing).
     </li>
     <li>
