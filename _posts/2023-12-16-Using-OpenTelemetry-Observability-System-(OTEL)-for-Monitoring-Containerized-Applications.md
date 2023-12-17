@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "OpenTelemetry Observability System (OTEL)"
+title: "Using OpenTelemetry Observability System (OTEL) for Monitoring Containerized Applications"
 date: 2023-12-16 11:00:00 +0530
-categories: OpenTelemetry Observability System (OTEL)
+categories: Using OpenTelemetry Observability System (OTEL) for Monitoring Containerized Applications
 picture: "../images/Observability System (OTEL)/otel-diagram.svg"
 writer: "Kapil Bokadia"
 ---
