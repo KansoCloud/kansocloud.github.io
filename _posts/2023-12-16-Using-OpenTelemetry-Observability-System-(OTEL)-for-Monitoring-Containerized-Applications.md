@@ -16,7 +16,7 @@ Microservices, Containerization and Kubernetes have become buzz words in the sof
 There are two basic requirements to observe or monitor a software application end-to-end:
 
 <ul>
-    <li>git 
+    <li> 
         Application components should generate the necessary data to be used for monitoring (metrics, logs, tracing).
     </li>
     <li>
