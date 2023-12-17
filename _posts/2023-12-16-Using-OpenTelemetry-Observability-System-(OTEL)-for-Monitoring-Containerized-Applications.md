@@ -79,7 +79,7 @@ The OTEL framework collects data, processes it, and then sends it to the exporte
         <strong>Backend Transfer:</strong>  The filtered data will go to the pre-defined backend systems for storage or analysis.
     </li>
 </ul>
-
+<br>
 ## **Conclusion**
 
 OTEL is a widely used observability stack because of its easy to use application instrumentation, data streamlining process and widely supported receiver, processor, and exporter resources. It provides an effective end-to-end monitoring platform for applications and is especially effective for monitoring both the infrastructure and application layers of containerized workloads.
