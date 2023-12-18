@@ -3,7 +3,7 @@
     title:  "Exploratory Testing in Software Testing"
     date:   2023-12-14 12:38:50 +0530
     categories: Testing
-    picture: "../images/blog14/blog14.jpg"
+    picture: "../images/ExploratoryTestingn/image1.png"
     writer: "YashweshSingh Rajawat, Manoj Gavali"
 ---
 
