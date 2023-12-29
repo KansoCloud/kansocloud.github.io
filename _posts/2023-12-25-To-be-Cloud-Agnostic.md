@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "To be "Cloud Agnostic", or Not to be: that is the question!"
+title: "To be Cloud Agnostic, or Not to be: that is the question!"
 date: 2023-12-27 11:00:00 +0530
-categories: To be "Cloud Agnostic", or Not to be: that is the question!
-picture: ""
+categories: To be Cloud Agnostic, or Not to be, that is the question!
+picture: "../images/no-photo-available.png"
 writer: "Tyler Barto"
 ---
 
