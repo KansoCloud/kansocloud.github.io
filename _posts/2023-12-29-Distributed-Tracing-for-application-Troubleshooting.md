@@ -19,6 +19,8 @@ There are mainly two components of tracing. Traces and spans. A trace represents
 
 <!-- img  -->
 
+![Distributed-Tracing](../images/Distributed-Tracing/Distributed-tracing.png)
+
 ## **Conclusion**
 
 In the context of a task list application, this simplified example demonstrates how distributed tracing could be employed to visualize the user's actions, such as adding and completing a task, as they traverse through different services. The trace context, including unique identifiers like trace and span IDs, helps correlate related spans, providing a comprehensive view of the end-to-end journey of a request. Distributed tracing is not only a powerful tool for troubleshooting and debugging but also a key component of observability in modern, complex systems. It allows development and operations teams to identify inefficiencies, optimize critical paths, and ensure a smooth and responsive user experience.
@@ -28,4 +30,5 @@ Platforms supporting Distributed Tracing functionality will be discussed in more
 ## **References**
 
 [Distributed tracing](https://www.datadoghq.com/knowledge-center/distributed-tracing)
+
 [Distributed tracing and observability](https://www.dynatrace.com/news/blog/open-observability-distributed-tracing-and-observability/)
