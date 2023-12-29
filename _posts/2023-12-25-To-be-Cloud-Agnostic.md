@@ -3,7 +3,7 @@ layout: post
 title: "To be "Cloud Agnostic", or Not to be: that is the question!"
 date: 2023-12-27 11:00:00 +0530
 categories: To be "Cloud Agnostic", or Not to be: that is the question!
-picture: "../images/ABDD/BDD2.png"
+picture: ""
 writer: "Tyler Barto"
 ---
 
@@ -21,13 +21,13 @@ This usually leads organizations into adopting Kubernetes as a container platfor
 
 The first thing to consider is how portable such a direction really is. While the application has been obscured from the environment somewhat by the addition of an extra operational layer, platform differences are now a concern when deploying infrastructure for Kubernetes to operate on. While managed Kubernetes services, such as GKE, AKS, and EKS are now common, each of these carries nuance and works best when paired with other services specific to each platform to provide enhanced functionality for resilient storage, load balancing, monitoring, DNS, secrets management, et cetera. Here are some important considerations:
 
-**Operational Complexity**
+**Operational Complexity:**
 Concerning the consequences, the biggest is the additional resources required to manage the Kubernetes platform. Even when a cloud platform managed service is used, it is still the organization’s responsibility to ensure nodes meet their security/compliance requirements, application components are adjusted for feature modifications and deprecations with control plane upgrades, node pools are built to scale intelligently with expected application usage, and so much more. It may be tempting to think that running the application stack entirely on Kubernetes simplifies operations, but the opposite is often true.
 
 **Resilience:**
 One of the common problems arises from running something as a container that probably shouldn’t be running on a platform designed for ephemeral workloads (such as databases, and other stateful systems). Each major cloud provider has long since solved the problem of how to store resilient state at any scale in a cost-effective manner, be it in managed SQL or NoSQL databases, shared file systems, or object storage which do not necessarily require variations in application code across multiple cloud provider solutions and should not be ignored. While there are ways to functionally maintain a resilient state entirely within a container platform such as Kubernetes, it requires additional tooling and management meaning more complexity and cost.
 
-**Scaling :**
+**Scaling:**
 Another cause for concern is scaling. Platform specific managed services normally handle scaling transparently, offering high availability, even under unplanned load. When an application runs exclusively within containers on Kubernetes, the operations team instead needs to manage multiple node pools for fine-tuned scaling leaving the business to pay for extra compute resources for longer than needed, or beyond the capacity needed. This is especially true when something like a serverless function could have served the purpose and only ever consumed just enough compute resources to run as concurrently or for as long as it needed to.
 
 ## **Conclusion**
