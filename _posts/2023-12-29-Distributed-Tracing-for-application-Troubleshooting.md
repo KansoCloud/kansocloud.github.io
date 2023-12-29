@@ -3,7 +3,7 @@ layout: post
 title: "Distributed Tracing for Application Troubleshooting"
 date: 2023-12-29 11:00:00 +0530
 categories: Distributed Tracing for Application Troubleshooting
-picture: ""
+picture: "../images/Distributed-Tracing/Distributed-tracing.png"
 writer: "Aditya Tornala"
 ---
 
