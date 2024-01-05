@@ -78,26 +78,15 @@ Then I should see an error message
 <strong>Scenario Outline</strong>: Check login functionality
 <br>
 Given I am on the login page
-When I enter "<username>" and "<password>"
+When I enter (username) and (password)
 Then I should be logged in successfully
 Examples:
 
 <br>
 
-<table>
-    <tr>
-        <th>Username</th>
-        <th>Password</th>
-    </tr>
-    <tr>
-        <td>abcd</td>
-        <td>123456</td>
-    </tr>
-    <tr>
-        <td>wxyz</td>
-        <td>learning</td>
-    </tr>
-</table>
+| username | password |
+| abc | 123456 |
+| xyz | learning |
 
 ## **BDD Advantages**
 
