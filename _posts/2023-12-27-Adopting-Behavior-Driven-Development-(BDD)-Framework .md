@@ -84,9 +84,10 @@ Examples:
 
 <br>
 
-| username | password |
-| abc | 123456 |
-| xyz | learning |
+| Username | Password |
+| -------- | -------- |
+| abc      | 123456   |
+| xyz      | learning |
 
 ## **BDD Advantages**
 
