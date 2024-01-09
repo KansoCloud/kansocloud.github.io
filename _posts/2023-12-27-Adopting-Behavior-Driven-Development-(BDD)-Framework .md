@@ -19,17 +19,21 @@ BDD is an approach to write specifications and not just tests. Using the BDD fra
 
 In the BDD framework, feature files are initially created to describe the main feature or functionality for a particular scenario, and test cases are then invoked from inside step definitions. Discussed below is a simple example of login functionality using BDD.
 
-<strong>Feature</strong>: As a user, I want to log in to my account, to access my profile and settings features
+<strong>Feature</strong>: Login
+<br>
+As a user,
+<br>
+I want to log in to my account, to access my profile and settings features.
 
-<strong>Scenario 1</strong>: As a user, I want to try to log in with valid credentials provided
-Given I am on the login page
-When I enter valid credentials and I click on the login button
-Then I should be logged in to my account
+<strong>Scenario 1</strong>: As a user, I want to try to log in with valid credentials provided <br>
+Given I am on the login page <br>
+When I enter valid credentials and I click on the login button <br>
+Then I should be logged in to my account <br>
 
-<strong>Scenario 2</strong>: As a user, I want to try to login with invalid credentials
-Given I am on the login page
-When I enter invalid credentials and I click on the login button
-Then I should see an error message
+<strong>Scenario 2</strong>: As a user, I want to try to login with invalid credentials <br>
+\textcolor{red}{Given I} am on the login page <br>
+When I enter invalid credentials and I click on the login button <br>
+Then I should see an error message <br>
 
 <!-- Two images to be presented here -->
 <div style="display: flex; align-items: center; justify-content: center;">
@@ -85,9 +89,9 @@ Examples:
 <br>
 
 | Username | Password |
-| -------- | -------- |
-| abc      | 123456   |
-| xyz      | learning |
+| :------: | :------: |
+|   abc    |  123456  |
+|   xyz    | learning |
 
 ## **BDD Advantages**
 

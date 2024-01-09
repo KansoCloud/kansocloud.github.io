@@ -4,7 +4,7 @@
     date:   2024-01-07 10:38:50 +0530
     categories: Building an Efficient and Scalable Test Automation Platform based on AWS Serverless Architecture
     picture: "../images/Scalabale-Test-Automation/Scalabale-Test-Automation.png"
-    writer: ""
+    writer: " Devendra Suthar"
 ---
 
 # **Introduction**
