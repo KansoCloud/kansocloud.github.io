@@ -88,16 +88,16 @@ Then I should be logged in successfully
 Examples:
 
 <br>
+<center>
 
-<div style="display:flex; align-items: center; justify-content: center;">
+    | Username | Password |
+    | :-------:| :-------:|
+    | abc      |   123456 |
+    | xyz      | learning |
 
-| Username | Password |
-| :------: | :------: |
-|   abc    |  123456  |
-|   xyz    | learning |
+</center>
 
-</div>
-
+<br>
 ## **BDD Advantages**
 
 <ul>
