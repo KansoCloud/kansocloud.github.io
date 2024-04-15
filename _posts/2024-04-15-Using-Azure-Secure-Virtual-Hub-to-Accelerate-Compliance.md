@@ -7,15 +7,15 @@
     writer: "Jason Dopson"
 ---
 
-## Introduction
+### Introduction
 
 Managing network security in a complex cloud environment can be a challenge. Azure Virtual WAN offers a solution, but for many organizations, it requires additional configuration to implement security policies. Azure Secure Virtual Hub is a streamlined approach that integrates security directly into the Virtual WAN.
 
-### What is a Secure Virtual Hub?
+#### What is a Secure Virtual Hub?
 
 A Secure Virtual Hub is a Virtual WAN hub with pre-configured Azure Firewall Manager. This means it inherits the security and routing policies defined in the Firewall Manager, thereby simplifying the process of securing cloud network traffic.
 
-### Why choose Secure Virtual Hub?
+#### Why choose Secure Virtual Hub?
 
 Secure virtual hubs are ideal for organizations that require increased security posture or to meet specific compliance requirements. In our case, Secure Virtual Hub was used for a solution to meet a client’s FedRAMP approval process.
 
@@ -23,14 +23,14 @@ With FedRAMP, any sensitive data/traffic needs to remain **in boundary** and req
 
 Even though our VNets are secured behind a firewall, the traffic going between these VNets needs to be controlled. Of course, this can be accomplished solely with NSGs and ASGs but this can be cumbersome if the infrastructure is not managed with Infrastructure as Code (IaC) and additional automation.
 
-#### Benefits of Using Secure Virtual Hub
+##### Benefits of Using Secure Virtual Hub
 
 - Simplified Security Management
 - Enhanced Security
 - Flexible Security Options
 - Scalable Network Architecture
 
-#### Example FedRAMP Architecture
+##### Example FedRAMP Architecture
 
 Secure Virtual Hub can assist in establishing the FedRAMP network boundary quickly by using Azure Firewall Manager to create VNets and a Virtual WAN (in a hub-and-spoke topology) from a single interface. North-South and East-West traffic gets routed through Azure Firewall by using what is known as **routing intent**. Secure Virtual Hub maintains VNet-to-VNet and VNet-to-Internet connectivity by enforcing the next hop which will be the Azure Firewall.
 
@@ -40,6 +40,6 @@ Azure Firewall can be used as a DNS Proxy by setting it as the default DNS for V
 
 ![Azure secure vurtual hub](../images/Azure%20secure%20virtual%20hub/Azure-security-hub.png)
 
-### Conclusion
+#### Conclusion
 
 By implementing Azure Secure Virtual Hubs, network security management can be streamlined to enforce granular traffic controls thereby achieving a more robust and scalable cloud network architecture. Using the Secure Virtual Hub construct can accelerate an organization's public cloud journey by implementing core network components of a compliant landing zone. All this can be accomplished by using a single interface with just a few clicks to set up the appropriate configuration. In reality, it is more than a few clicks but it is always recommended to implement IaC (**for example, Terraform supports for this resource**).
