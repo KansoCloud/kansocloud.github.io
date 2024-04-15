@@ -35,6 +35,6 @@ The objective of TDD is to prove that quality is engineered into development pra
 
 ##### References:
 
-[TDD](https://marsner.com/blog/why-test-driven-development-tdd/)
+- [TDD](https://marsner.com/blog/why-test-driven-development-tdd/)
 
-[TDD vs BDD](https://katalon.com/resources-center/blog/tdd-vs-bdd)
+- [TDD vs BDD](https://katalon.com/resources-center/blog/tdd-vs-bdd)
