@@ -26,7 +26,7 @@ One strategy that has worked well for me in sourcing technology professionals is
 
 Overall, I have found that building relationships with candidates and staying up-to-date on industry trends and technologies are crucial in successfully hiring engineering professionals. By understanding the unique skill set and mindset required for this role, I have been able to more effectively attract and engage top talent in the field.
 
-<div style="text-align:center"><img src="../images/competitive%20job%20market/img1.png" /></div>
+<div style="text-align:center"><img src="../images/competitive-job-market/img1.png" /></div>
 
 ### **Why does attitude matter?**
 
@@ -34,7 +34,7 @@ Overall, I have found that building relationships with candidates and staying up
 - **Fosters a culture of continuous learning:** Hiring technology professionals who are eager to learn and grow can help create a culture of continuous learning within the organization. By investing in their development and providing growth opportunities, companies can build a team of skilled professionals who are constantly evolving and adapting to new technologies and practices.
 - **Drives innovation and creativity:** Bringing in developers/architects who can inject new ideas, perspectives, and approaches into the team. Their fresh perspective can fuel innovation and creativity, leading to new solutions and improvements in processes and workflows. This diversity of thought can ultimately drive the company forward and keep it competitive in the rapidly changing tech industry.
 
-<div style="text-align:center"><img src="../images/competitive%20job%20market/img2.png" /></div>
+<div style="text-align:center"><img src="../images/competitive-job-market/img2.png" /></div>
 
 ### **Conclusion**
 
