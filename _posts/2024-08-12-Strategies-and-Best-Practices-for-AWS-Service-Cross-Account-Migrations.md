@@ -16,6 +16,8 @@ AWS cross-account migrations are crucial for cloud developers. This blog covers 
 * **Cost Optimization:** Leveraging different pricing structures or regions
 * **Disaster Recovery:** Creating isolated environments for backup and recovery
 
+<br>
+
 ## **Migration Strategies**
 It is advisable to choose a migration strategy based on data volume, downtime tolerance, and resource dependencies. Common approaches include:
 
@@ -25,10 +27,14 @@ It is advisable to choose a migration strategy based on data volume, downtime to
 * **Database-Specific Tools:** Use built-in utilities for RDS, DynamoDB, and ElasticSearch.
 * **Scripting and Automation:** Custom scripts or AWS Lambda functions for complex scenarios.
 
+<br>
+
 ### **Migration Patterns**
 * **Lift and Shift:** Move resources with minimal changes; suitable for applications with few dependencies.
 * **Re-platforming:** Change the underlying platform (e.g., from EC2 to Fargate) while retaining application logic.
 * **Refactoring:** Modify the application architecture to leverage new AWS services or optimize performance.
+
+<br>
 
 ## **Case Studies: Migrating Specific Services**
 
@@ -94,5 +100,6 @@ It is advisable to choose a migration strategy based on data volume, downtime to
 * **Monitoring:** Track the migration process and resource usage.
 * **Documentation:** Maintain detailed records of the migration process.
 
+<br>
 
 Cross-account migrations in AWS require careful planning and execution. By thoroughly understanding the tools, strategies, and best practices, one can effectively migrate DynamoDB, S3, RDS, EFS, and other services while minimizing downtime and risks.

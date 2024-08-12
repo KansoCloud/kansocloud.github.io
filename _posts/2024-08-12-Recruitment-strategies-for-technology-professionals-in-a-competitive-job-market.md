@@ -7,8 +7,6 @@ picture: "../images/competitive-job-market/img1.png"
 writer: "Anuradha Das"
 ---
 
-## **Recruitment Strategies for Technology professionals in a competitive job market**
-
 In today's competitive job market, the demand for skilled IT professionals is relatively high. As an HR leader, I want to share some insights and strategies for recruiting competent IT professionals while addressing the challenges that come with it.
 
 Hiring IT professionals across various domains requires HR professionals to constantly learn and adapt to the evolving landscape of technology and industry-specific needs. I have faced multiple challenges in hiring fresh graduates and software engineers to match our full stack development, DevSecOps and test automation needs. To start off, I had limited knowledge and experience in these areas, and understanding the technical aspects of these roles required a significant learning curve. I have had to get myself acquainted with this domain to effectively evaluate and screen qualified candidates. However, I knew that to keep up with the rapidly changing technology landscape, I had to adapt and broaden my skill set. This meant constantly educating myself on different domains that my company supported, listening to podcasts and webinars, and seeking mentorship from experts in this field. By making a concerted effort to learn and adjust, I have been able to successfully collaborate with our current technical staff to constantly improve our hiring practices for technology roles.
@@ -34,7 +32,11 @@ Overall, I have found that building relationships with candidates and staying up
 - **Fosters a culture of continuous learning:** Hiring technology professionals who are eager to learn and grow can help create a culture of continuous learning within the organization. By investing in their development and providing growth opportunities, companies can build a team of skilled professionals who are constantly evolving and adapting to new technologies and practices.
 - **Drives innovation and creativity:** Bringing in developers/architects who can inject new ideas, perspectives, and approaches into the team. Their fresh perspective can fuel innovation and creativity, leading to new solutions and improvements in processes and workflows. This diversity of thought can ultimately drive the company forward and keep it competitive in the rapidly changing tech industry.
 
+<br>
+
 <div style="text-align:center"><img src="../images/competitive-job-market/img2.png" /></div>
+
+<br>
 
 ### **Conclusion**
 
@@ -44,10 +46,12 @@ To successfully navigate a competitive technology job market and hire talented p
 - Additionally, leveraging online job boards and professional networking sites can help reach a larger pool of qualified candidates. It is also important for the organization to offer competitive salaries and benefits packages to attract and retain top talent.
 - Finally, conducting thorough interviews and assessments to assess a candidate's technical skills, cultural fit, and communication abilities is essential in the hiring process.
 
+<br>
+
 Ultimately, the responsibility of defining recruitment strategies for hiring talented professionals falls on the recruitment team, hiring managers, and the Human Resources department to ensure a successful recruitment process. While the process may differ based on the company, the fundamentals remain the same!
 
 ### **References**
 
-- https://www.talentlyft.com/en/blog/article/211/8-recruitment-strategies-to-attract-the-best-talent
+- [https://www.talentlyft.com/en/blog/article/211/8-recruitment-strategies-to-attract-the-best-talent](https://www.talentlyft.com/en/blog/article/211/8-recruitment-strategies-to-attract-the-best-talent)
 
-- https://www.sutisoft.com/blog/best-strategies-effective-hr-recruiting/
+- [https://www.sutisoft.com/blog/best-strategies-effective-hr-recruiting/](https://www.sutisoft.com/blog/best-strategies-effective-hr-recruiting/)
