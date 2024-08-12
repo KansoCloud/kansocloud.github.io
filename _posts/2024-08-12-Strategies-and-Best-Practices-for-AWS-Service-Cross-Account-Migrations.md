@@ -2,6 +2,7 @@
 layout: post
 title:  "Strategies and Best Practices for AWS Service Cross-Account Migrations"
 date:   2024-08-12 15:30:00 +0530
+picture: "../images/no-photo-available.png"
 categories: AWS Service Cross-Account Migrations
 writer: "Seth Nicewarner"
 ---

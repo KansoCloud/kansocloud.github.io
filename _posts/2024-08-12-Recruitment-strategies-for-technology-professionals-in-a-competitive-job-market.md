@@ -3,7 +3,7 @@ layout: post
 title: "Recruitment Strategies for Technology Professionals in a Competitive Job Market"
 date: 2024-08-12 16:02:00 +0530
 categories: Recruitment Strategies
-picture: "../images/competitive-job-market"
+picture: "../images/competitive-job-market/img1.png"
 writer: "Anuradha Das"
 ---
 
