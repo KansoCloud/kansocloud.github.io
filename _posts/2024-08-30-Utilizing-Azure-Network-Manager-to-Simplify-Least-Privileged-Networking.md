@@ -33,7 +33,7 @@ Using Azure Network Manager, one can create Security Admin Rules that apply to a
 
 <div style="width:20%; margin: auto;">
 
-![Alt text](../images/Azure-Network-Manager/image.png "Azure-Netowrk-Manager")
+![Alt text](../images/Azure-Network-Manager/image.png)
 
 </div>
 
