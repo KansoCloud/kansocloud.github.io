@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Managing SLIs and SLOs using Nobl9 Reliability Center"
-date:   2022-08-30 12:38:50 +0530
+date:   2024-08-30 12:38:50 +0530
 categories: "Service Performance"
 picture: "../images/nobl9/image.png"
 writer: "Anthony Lee"
@@ -24,11 +24,12 @@ KansoCloud integrated Nobl9 with the current Observability Platform (built on th
 **Nobl9 Implementation and Capabilities** \
 The Nobl9 agent deployment will ingest metrics from multiple tenants, including the configuration of an HTTP header environment variable which can be set to store compartmentalize metrics from different applications teams (tenants) and separate them into their distinct spaces. \
  \
-Example: \
- \
-**<code>env:** \
- name: HTTP_HEADER</code></strong> \
-<code> value: tenant_id</code></strong>
+Example: 
+```
+env:
+ name: HTTP_HEADER
+ value: tenant_id
+```
 
 **Deployment Details** \
 The Nobl9 agent deployment process was configured to be self-service by modifying the Observability Platform’s onboarding pipeline to include specific values for the Nobl9 agent's client ID and client secret which users can obtain from the auto-generated Kubernetes deployment file through the Nobl9 UI. This information is then used to dynamically generate the appropriate Kubernetes deployment configuration. An additional parameter is also configured, allowing the user to opt-in for deployment. If opted-in, the pipeline uses the provided credentials to set up the Nobl9 agent securely. This approach gives users more control and flexibility during the onboarding process, allowing them to easily deploy the Nobl9 agent with their specific configuration or skip the deployment if desired. 
