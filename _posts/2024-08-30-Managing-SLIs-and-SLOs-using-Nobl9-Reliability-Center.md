@@ -7,8 +7,6 @@ picture: "../images/nobl9/image.png"
 writer: "Anthony Lee"
 ---
 
-## **Managing SLIs and SLOs using Nobl9 Reliability Center**
-
 ### **Introduction**
 
 Nobl9 Reliability Center (Nobl9) is a SaaS platform that provides a common understanding of service performance from business to technical stakeholders alike. Nobl9 typically resides on top of the current monitoring environment allowing organizations to set Service Level Objectives (SLOs) and track error budgets across all platforms and applications. Nobl9 attempts to bring visibility to these occurrences, empowering product teams to quickly identify and bring attention to issues that don’t cause an outage but that negatively impact their users’ experience. Nobl9 also allows organizations to define and monitor Service Level Indicators (SLIs) that accurately reflect the performance and reliability of their services. By transforming these SLIs into actionable SLOs, Nobl9 provides a clear and concise framework for making data-driven decisions that improve the quality of service delivered to customers. 
