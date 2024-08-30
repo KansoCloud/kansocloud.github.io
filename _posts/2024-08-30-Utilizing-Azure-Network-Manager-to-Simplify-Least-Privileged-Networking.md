@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Managing SLIs and SLOs using Nobl9 Reliability Center"
+title: "Utilizing Azure Network Manager to Simplify Least Privileged Networking"
 date: 2024-08-30 12:38:50 +0530
 categories: "Azure-Network-Manager"
 picture: "../images/Azure-Network-Manager/image.png"
