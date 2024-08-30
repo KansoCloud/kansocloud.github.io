@@ -31,10 +31,8 @@ While there are many features available in Azure Network Manager, one particular
 
 Using Azure Network Manager, one can create Security Admin Rules that apply to all NSG’s and can take precedence over NSG rules. Security Admin Rules can also be used to isolate specific networks such as the separation of Production and Development networks while still allowing both to reach a management network and not having to update route tables or firewall rules (who has time to wait 5 min per network firewall update). In our use case, it has been utilized to provide the development teams with more autonomy by allowing them to add or remove their NSG rules as they see fit while preventing them from creating overall security risks.
 
-<div style="width:20%; margin: auto;">
-
-![Alt text](../images/Azure-Network-Manager/image.png)
-
+<div style="text-align: center;">
+  <img src="../images/Azure-Network-Manager/image.png" alt="Azure-Network-Manager" title="Azure-Network-Manager" style="width: 20%;">
 </div>
 
 ### **Conclusion**
