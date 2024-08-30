@@ -7,13 +7,13 @@ picture: "../images/Azure-Network-Manager/image.png"
 writer: "Mitch Martin"
 ---
 
-# **Utilizing Azure Network Manager to Simplify Least Privileged Networking**
+## **Utilizing Azure Network Manager to Simplify Least Privileged Networking**
 
-## **Introduction**
+### **Introduction**
 
 In the rapidly evolving landscape of cloud computing, managing network infrastructure efficiently is paramount for businesses striving for digital transformation. Enter Azure Network Manager, Microsoft's comprehensive solution designed to simplify and streamline network management in the Azure cloud environment. In this blog post, we'll delve into the capabilities of **Azure Network Manager** and explore how it empowers organizations to optimize their network operations while enhancing security and reliability.
 
-## **The Challenge of Cloud Network Management**
+### **The Challenge of Cloud Network Management**
 
 As businesses increasingly migrate their workloads to the cloud, they are confronted with the complexities of managing diverse network environments spanning multiple regions and services. Traditional networking approaches often struggle to keep pace with the dynamic nature of cloud infrastructure, leading to operational inefficiencies, security vulnerabilities, and compliance risks.
 
@@ -39,6 +39,6 @@ Using Azure Network Manager, one can create Security Admin Rules that apply to a
 
 </div>
 
-## **Conclusion**
+### **Conclusion**
 
 Azure Network Manager represents a paradigm shift in cloud network management in Azure, empowering organizations to optimize performance, enhance security, and drive innovation in the digital age. By centralizing management, automating provisioning, and delivering advanced security and monitoring capabilities, Azure Network Manager enables businesses to unleash the full potential of their Azure infrastructure while staying agile and resilient in a dynamic cloud landscape.
