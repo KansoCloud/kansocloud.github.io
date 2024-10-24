@@ -152,7 +152,7 @@ def create_prompt(target_schema: Type[pydantic.BaseModel] | None):
    Your task is to fill in the information about the food item based on the user input.
    Responses should be in JSON format compliant to the following JSON schema.
 
-  """ + schema_json.replace("{", "{{").replace("}", "}}")
+  """ + schema_json.replace("\{", "\{{").replace("\}", "\}}")
 
   return prompt
 
