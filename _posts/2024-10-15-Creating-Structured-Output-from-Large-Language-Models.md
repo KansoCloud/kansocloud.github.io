@@ -2,6 +2,7 @@
     layout: post
     title:  "Creating Structured Output from Large Language Models"
     date:   2024-10-15 21:38:50 +0530
+    picture: "../images/no-photo-available.png"
     categories: Creating Structured Output from Large Language Models
     writer: " Sushant Thotakura"
 ---
