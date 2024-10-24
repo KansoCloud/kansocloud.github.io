@@ -141,7 +141,7 @@ def clean_response(content):
 
 The prompt is then created in order to be used for the LLM. The flattened schema is appended to the prompt and the LLM is then instructed to fill in information that is compliant with the schema already provided. It can be observed that we are only adding two lines in the prompt and the rest is being passed through the schema.
 
-```python
+```java
 def create_prompt(target_schema: Type[pydantic.BaseModel] | None):
   schema_json = json.dumps(
       get_schema_of_chart_config(target_schema),
